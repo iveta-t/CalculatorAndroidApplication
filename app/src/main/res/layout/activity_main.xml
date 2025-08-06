@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333333"
+    android:padding="16dp">
+
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/vestures_logs"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#D7D2D2"
+        android:gravity="end|center_vertical"
+        android:text=""
+        android:textSize="52sp"
+        android:textColor="#000"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/darbibu_logs"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#D7D2D2"
+        android:gravity="end|center_vertical"
+        android:text="0"
+        android:textSize="52sp"
+        android:textColor="#000"
+        android:padding="16dp" />
+
+    <!-- Buttons -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="4"
+        android:layout_margin="14dp"
+        android:rowCount="5">
+
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/poga_dzest"
+            android:backgroundTint="#00BCD4"
+            android:text="@string/dzest"
+            android:textSize="40sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/poga_dalit"
+            android:backgroundTint="#FF5722"
+            android:text="@string/dalit"
+            android:textSize="40sp" />
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/poga_7"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_7"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_8"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_8"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_9"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_9"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_reizinat"
+            android:backgroundTint="#FF5722"
+            android:text="@string/reizinat"
+            android:textSize="40sp" />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/poga_4"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_4"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_5"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_5"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_6"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_6"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_atnemt"
+            android:backgroundTint="#FF5722"
+            android:text="@string/atnemt"
+            android:textSize="40sp" />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/poga_1"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_1"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_2"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_2"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_3"
+            android:backgroundTint="#565656"
+            android:text="@string/nr_3"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_saskaitit"
+            android:backgroundTint="#FF5722"
+            android:text="@string/saskaitit"
+            android:textSize="40sp" />
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/poga_0"
+            android:backgroundTint="#565656"
+            android:layout_columnSpan="2"
+            android:text="@string/nr_0"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_komats"
+            android:backgroundTint="#565656"
+            android:text="@string/komats"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/poga_rezultats"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/rezultats"
+            android:textSize="40sp" />
+
+    </GridLayout>
+
+</LinearLayout>
